@@ -2,10 +2,12 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -21,18 +23,26 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.bg-image {
+  outline: 2px solid rgb(0, 0, 0);
+  background-size: 50% 50px;
+  padding:20em;
+  background-image: url("images/pexels-visually-us-1643409.jpg");
+  background-repeat: no-repeat;
+ }
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

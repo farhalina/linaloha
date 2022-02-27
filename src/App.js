@@ -1,21 +1,11 @@
-import smile from './smile.svg';
 import './App.css';
+import Home from './Home.js'
+// import Confetti from 'react-dom-confetti';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={smile} className="App-logo" alt="logo" />
-       
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+    <div>
+      <Home/>
     </div>
   );
 }
